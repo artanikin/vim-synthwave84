@@ -1,0 +1,171 @@
+# vim ft=colortemplate
+
+# Information {{{
+Full name: Synthwave84
+Short name: synthwave84
+Author: Anikin Artyom <anikinartyom@gmail.com>
+Maintainer: Anikin Artyom <anikinartyom@gmail.com>
+Website: https://github.com/artanikin/vim-synthwave84
+# }}}
+
+# Color palette {{{
+# Color name                GUI                  Base256    Base16
+Color: black                Black                  0        Black
+Color: blue                 Blue                  12        Blue
+Color: cyan                 Cyan                  14        Cyan
+Color: cyanidentifier       #40ffff               14        Cyan
+Color: darkblue             DarkBlue               4        DarkBlue
+Color: darkcyan             DarkCyan               6        DarkCyan
+Color: darkgreen            DarkGreen              2        DarkGreen
+Color: darkmagenta          DarkMagenta            5        DarkMagenta
+Color: darkred              DarkRed                1        DarkRed
+Color: green                Green                 10        Green
+Color: lightgrey            LightGrey              7        LightGrey
+Color: red                  Red                    9        Red
+Color: white                White                 15        White
+Color: darkyellow           DarkYellow             3        DarkYellow
+Color: darkgrey             DarkGrey               8        DarkGrey
+
+Color: s_steelgray          #262335                8        DarkGray
+Color: s_white              #ECEBED                7        LightGray
+Color: s_tolopea            #2C2540                7        LightGray
+Color: s_oslogray           #888690                7        LightGray
+Color: s_lightgray          #D4D3D7                7        LightGray
+Color: s_yellow             #FEDE5D                11       Yellow
+Color: s_governorbay        #495495                14       Cyan
+Color: s_grape              #3E3B4B                8        DarkGray
+Color: s_red                #E55A5E                9        Red
+Color: s_lightred           #EB8F82                224      LightRed
+Color: s_magenta            #D884C7                13       Magenta
+Color: s_orange             #EA9652                224      LightRed
+Color: s_green              #90DEB6                121      LightGreen
+# }}}
+
+# Terminal colors {{{
+# Vim by default does not define g:terminal_ansi_colors
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgrey
+Term Colors: darkgrey red green s_yellow blue s_magenta cyan white
+# }}}
+
+# Common linked groups {{{
+EndOfBuffer              -> NonText
+QuickFixLine             -> Search
+Boolean                  -> Constant
+Character                -> Constant
+Conditional              -> Statement
+Define                   -> PreProc
+Debug                    -> Special
+Delimiter                -> Special
+Exception                -> Statement
+Float                    -> Number
+Function                 -> Identifier
+Keyword                  -> Statement
+Label                    -> Statement
+Macro                    -> PreProc
+Number                   -> Constant
+Operator                 -> Statement
+PreCondit                -> PreProc
+Repeat                   -> Statement
+SpecialChar              -> Special
+SpecialComment           -> Special
+StorageClass             -> Type
+Structure                -> Type
+Tag                      -> Special
+Typedef                  -> Type
+lCursor                  -> Cursor
+jsFlowMaybe              -> Normal
+jsFlowObject             -> Normal
+jsFlowType               -> PreProc
+jsArrowFunction          -> Operator
+jsClassDefinition        -> Normal
+jsClassFuncName          -> Title
+jsImport                 -> Include
+jsExport                 -> Include
+jsFrom                   -> PreProc
+jsFuncName               -> Identifier
+jsFutureKeys             -> Statement
+jsFuncCall               -> Identifier
+jsGlobalObjects          -> Statement
+jsModuleKeywords         -> Statement
+jsModuleOperators        -> Statement
+jsNull                   -> Constant
+jsObjectFuncName         -> Identifier
+jsObjectKey              -> Title
+jsSuper                  -> Statement
+jsTemplateBraces         -> Special
+jsUndefined              -> Constant
+jsFunction               -> PreProc
+jsThis                   -> Constant
+jsStorageClass           -> PreProc
+jsVariableDef            -> Title
+rubyClass                -> PreProc
+rubyConstant             -> Constant
+rubyInstanceVariable     -> Title
+rubyInterpolationDelimiter -> Identifier
+rubyModule               -> Statement
+rubyFunction             -> Identifier
+rubyInclude              -> Include
+markdownBold             -> Special
+markdownCode             -> String
+markdownCodeDelimiter    -> String
+markdownHeadingDelimiter -> Comment
+markdownRule             -> Comment
+# }}}
+
+Background: dark
+
+Variant: gui 256 8
+
+# Group              Foreground          Background        Attributes
+Normal               s_white             s_steelgray
+ColorColumn          none                s_tolopea
+Cursor               black               fg
+CursorColumn         none                s_tolopea
+CursorLine           none                s_tolopea
+CursorLineNr         s_lightgray         s_tolopea         g=bold
+DiffAdd              none                s_green
+DiffChange           none                s_magenta
+DiffDelete           black               s_lightred        g=bold
+DiffText             none                red               bold
+FoldColumn           s_governorbay       s_tolopea
+Folded               s_governorbay       s_tolopea
+LineNr               s_oslogray          none
+NonText              s_governorbay       none              g=bold
+Pmenu                s_white             s_tolopea
+PmenuSbar            none                s_grape
+PmenuSel             s_white             s_governorbay
+PmenuThumb           none                s_white
+Search               black               s_yellow
+SignColumn           s_oslogray          none
+SignColumn           s_white             none
+SpecialKey           s_white             s_tolopea
+StatusLine           s_white             s_tolopea         reverse,bold
+StatusLineNC         s_white             s_tolopea         reverse
+TabLine              s_governorbay       s_tolopea
+TabLineFill          none                s_tolopea
+TabLineSel           s_lightred          s_tolopea
+Title                s_magenta           none
+Todo                 black               s_yellow
+VertSplit            s_tolopea           s_governorbay     reverse
+Visual               none                s_grape
+VisualNOS            none                none              underline,bold
+WildMenu             black               s_yellow
+# Other conventional group names (see `:help group-name`)
+Comment              s_governorbay       none
+Constant             s_red               none
+Error                s_white             red
+Identifier           cyanidentifier      none
+Ignore               black               none
+Include              s_green             none
+PreProc              s_yellow            none
+Special              s_orange            none
+Statement            s_yellow            none
+String               s_orange            none
+Type                 s_red               none
+Underlined           cyanidentifier      none              underline
+
+# Ruby
+rubySymbol           s_lightred          none
+rubyBoolean          s_lightred          none
+# }}}
+

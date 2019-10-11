@@ -25,6 +25,10 @@ Installation
 
     b. Reload .vimrc and `:PlugInstall` to install plugin.
 
+    c. Put the following line in your .vimrc, and reload vim:
+
+      ```colorscheme synthwave84```
+
 
 Screenshots
 -----------

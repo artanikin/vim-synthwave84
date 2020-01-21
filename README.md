@@ -2,6 +2,18 @@
 
 The port of [SynthWave '84 - VS Code theme to Vim](https://github.com/robb0wen/synthwave-vscode)
 
+Screenshots
+-----------
+
+### Ruby
+![Synthwave84-ruby](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/ruby.png)
+
+### JavaScript
+![Synthwave84-js](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/js.png)
+
+### Vim script
+![Synthwave84-vimrc](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/vimrc.png)
+
 Installation
 ------------
 
@@ -30,14 +42,4 @@ Installation
       ```colorscheme synthwave84```
 
 
-Screenshots
------------
 
-### Ruby
-![Synthwave84-ruby](https://github.com/artanikin/vim-synthwave84/blob/master/media/ruby.png)
-
-### JavaScript
-![Synthwave84-js](https://github.com/artanikin/vim-synthwave84/blob/master/media/js.png)
-
-### Vim script
-![Synthwave84-vimrc](https://github.com/artanikin/vim-synthwave84/blob/master/media/vimrc.png)

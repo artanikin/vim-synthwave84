@@ -46,7 +46,6 @@ hi! link lCursor Cursor
 hi! link jsFlowMaybe Normal
 hi! link jsFlowObject Normal
 hi! link jsFlowType PreProc
-hi! link jsArrowFunction Operator
 hi! link jsClassDefinition Normal
 hi! link jsClassFuncName Title
 hi! link jsImport Include
@@ -55,7 +54,6 @@ hi! link jsFrom PreProc
 hi! link jsFuncName Identifier
 hi! link jsFutureKeys Statement
 hi! link jsFuncCall Identifier
-hi! link jsGlobalObjects Statement
 hi! link jsModuleKeywords Statement
 hi! link jsModuleOperators Statement
 hi! link jsNull Constant
@@ -68,6 +66,18 @@ hi! link jsFunction PreProc
 hi! link jsThis Constant
 hi! link jsStorageClass PreProc
 hi! link jsVariableDef Title
+hi! link jsAsyncKeyword Title
+hi! link jsFuncArgs Title
+hi! link jsArrowFuncArgs Title
+hi! link jsArrowFunction PreProc
+hi! link jsObjectShorthandProp Title
+hi! link jsGlobalObjects Constant
+hi! link jsModuleKeyword Title
+hi! link jsClassStringKey Title
+hi! link jsObjectKeyComputed Title
+hi! link jsObjectValue Title
+hi! link jsBlockLabel Title
+hi! link jsBlockLabelKey Title
 hi! link rubyClass PreProc
 hi! link rubyConstant Constant
 hi! link rubyInstanceVariable Title

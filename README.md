@@ -6,13 +6,13 @@ Screenshots
 -----------
 
 ### Ruby
-![Synthwave84-ruby](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/ruby.png)
+![Synthwave84-ruby](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/ruby2.png)
 
 ### JavaScript
-![Synthwave84-js](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/js.png)
+![Synthwave84-js](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/js2.png)
 
 ### Vim script
-![Synthwave84-vimrc](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/vimrc.png)
+![Synthwave84-vimrc](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/vim2.png)
 
 Installation
 ------------

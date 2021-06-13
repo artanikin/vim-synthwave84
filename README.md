@@ -2,17 +2,16 @@
 
 The port of [SynthWave '84 - VS Code theme to Vim](https://github.com/robb0wen/synthwave-vscode)
 
-Screenshots
------------
+## Screenshots
 
 ### Ruby
-![Synthwave84-ruby](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/ruby2.png)
+![Synthwave84-ruby](./media/ruby2.png)
 
 ### JavaScript
-![Synthwave84-js](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/js2.png)
+![Synthwave84-js](./media/js2.png)
 
 ### Vim script
-![Synthwave84-vimrc](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/vim2.png)
+![Synthwave84-vimrc](./media/vim2.png)
 
 # Installation
 

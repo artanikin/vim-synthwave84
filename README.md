@@ -5,13 +5,13 @@ The port of [SynthWave '84 - VS Code theme to Vim](https://github.com/robb0wen/s
 ## Screenshots
 
 ### Ruby
-![Synthwave84-ruby](./media/ruby2.png)
+![Synthwave84-ruby](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/ruby2.png)
 
 ### JavaScript
-![Synthwave84-js](./media/js2.png)
+![Synthwave84-js](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/js2.png)
 
 ### Vim script
-![Synthwave84-vimrc](./media/vim2.png)
+![Synthwave84-vimrc](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/vim2.png)
 
 # Installation
 
@@ -49,7 +49,7 @@ The port of [SynthWave '84 - VS Code theme to Vim](https://github.com/robb0wen/s
 
 ## Colors are Wrong
 
-  ![incorrect color](./media/incorrect-colors.png)
+  ![incorrect color](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/incorrect-colors.png)
 
   This theme requires `vim` to support the 
   `+termguicolors` option.
@@ -71,7 +71,7 @@ The port of [SynthWave '84 - VS Code theme to Vim](https://github.com/robb0wen/s
 
   The colors should then appear correctly after reloading `vim`:
 
-  ![correct color](./media/correct-colors.png)
+  ![correct color](https://raw.githubusercontent.com/artanikin/vim-synthwave84/master/media/correct-colors.png)
 
   Here is a text copy of the `~/.vimrc` file shown 
   in the screenshot above:
